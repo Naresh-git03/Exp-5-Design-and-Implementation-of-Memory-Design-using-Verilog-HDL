@@ -120,10 +120,8 @@ module romm_tb;
         #10 clk_t = ~clk_t;   
 endmodule
 ```
-
 // output Waveform
 <img width="1920" height="1200" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/5e381f5a-9913-4b19-9bf9-a461a07152a3" />
-
  # FIFO
  // write verilog code for FIFO
  ```
@@ -169,7 +167,6 @@ endmodule
     end
 endmodule
 ```
-
  // Test bench
  ```
 module tb_fifo;
@@ -212,7 +209,6 @@ module tb_fifo;
     end
 endmodule
 ```
-
 // output Waveform
 
 <img width="1920" height="1200" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/249b22b2-1b16-4cd9-bd63-140e310dc5ce" />
